@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Register</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+ 
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  
+
+</head>
+<body>
+
+<div class="bg">
+<div class="container">
+    <div class="row col-md-6 col-md-offset-3">
+			<div class="panel panel-primary">
+				<div class="panel-heading text-center">
+					<h1>Registration</h1>
+				</div>
+				<div class="panel-body">
+					 <form action="connect.php" method="post">
+						<div class="form-group">
+							<label for="firstname">First Name:</label>
+							<input type="text" class="form-control" id="firstname"  name="firstname" placeholder="First Name" required />
+						</div>
+						<div class="form-group">
+							<label for="lastname">Last Name:</label>
+							<input type="text" class="form-control" id="lastname" name="lastname"placeholder="Last Name" required />
+						</div>	
+						<div class="form-group">
+							<label for="gender">Gender:</label>
+							<div>
+								<label for="male" class="radio-inline"><input type="radio" name="gender" value="Male" id="male" required>Male</label>
+								<label for="female" class="radio-inline"><input type="radio" name="gender" value="Female" id="female">Female</label>
+								<label for="other" class="radio-inline"><input type="radio" name="gender" value="Other" id="other">Other</label>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="username">Username:</label>
+							<input type="text" class="form-control" id="username" name="username" placeholder="Username"required>
+						</div>
+						<div class="form-group">
+						
+							<label for="password"">Password</label>
+							
+							<input id="password" type="password" class="form-control" name="password" placeholder="Password" required>
+							
+													
+						</div>
+						
+						<div class="form-group">
+							<label for="email">Email:</label>
+							<input type="text" class="form-control" id="email" name="email" placeholder="Email Id" required />
+						</div>
+						<div class="form-group">
+							<label for="phonenumber">Phone Number:</label>
+							<input type="text" class="form-control" id="phonenumber" name="phonenumber"placeholder="Phone Number" required />
+						</div>
+						<div>
+						
+							<input type="submit" class="btn btn-primary" name="register">
+							 <input type="reset" class="btn btn-primary" value="Reset">
+
+						</div>
+						<div class="container signin">
+							<p><br>Already have an account? <a href="#">Sign in</a>.</p>
+						</div>
+					</form><div class="panel-footer text-right">
+					<small>&copy; SupriyaKolhe</small>
+				</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+body, html 
+{
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg 
+{
+  /* The image used */
+  background-image: url("sea image.jpg");
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+input[type=text]:focus, input[type=password]:focus 
+{
+  background-color: #ddd;
+  outline: none;
+}
+
+/*style for the submit button */
+.btn 
+{
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 49%;
+  opacity: 0.9;
+}
+
+
+
+.btn:hover 
+{
+  opacity: 1;
+}
+
+.signin {
+  text-align: left;
+}
