@@ -32,8 +32,7 @@
 	}
 	if(!preg_match("/^[a-zA-Z-' ]*$/",$lastname))
 	{
-		?>
-		<h1>Please enter valid lastname</h1><?php
+		?><h1>Please enter valid lastname</h1><?php
 		$perfect='0';
 	}
 	if (!filter_var($email, FILTER_VALIDATE_EMAIL))
